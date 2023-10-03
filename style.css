@@ -66,6 +66,10 @@ h3{
     width: 100%;
     background-color:black ;
 }
+.dulceDeLeche1{
+    width: 100%;
+    background-color:black ;
+}
 .dulceDeLeche2{
      width: 100%;
      background-color:rgb(236, 193, 99);
@@ -115,10 +119,19 @@ label , input ,legend{
     background-color: black;
     text-align: center;
 }
+.footer2{
+  margin-left:5%;
+  display: flex;
+  flex-direction: row;
+}
 
 .p1{
     color:rgb(236, 193, 99) ;
     font-weight: bold;
+}
+.colorIcono{
+    color: black;
+    font-size: 35px;
 }
 @media screen and (max-width: 991px){
     .noMostrar{
@@ -133,7 +146,48 @@ label , input ,legend{
     .encabezado{
         display: flex;
         flex-direction: column-reverse!important;
-        
+    }
+    .dulceDeLeche{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .imagen2{
+        display: none;
+    }
+    .rece{
+        width:50px;
+    }
+    .rece1{
+      display: none!important;
+    }
+    .dulceDeLeche1{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .dulceDeLeche2{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .dulceDeLeche3{
+        display: flex;
+        flex-direction: column!important;
 
+    }
+    .footer2{
+        display: block;
+    }
+    .fant{
+        display: flex;
+        flex-direction:row!important;
+        margin-left: 0 !important;
+    }
+    .p{
+        font-size: 12px;
+    }
+    .p1{
+        display: block!important;
     }
 }
