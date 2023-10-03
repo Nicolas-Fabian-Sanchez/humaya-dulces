@@ -1,0 +1,139 @@
+.noMostrar{
+   display: none;
+}
+
+.encabezado{
+    background-image:url(./img/humayaEncabezado.jpg);
+    background-size: cover; /* para que la imagen se acomode sola a las medidas de la pantallas*/
+	background-attachment: fixed;/*para que quede fija y haga el efecto que se en en pantalla */
+    background-position:35%; 
+    height: 500px;
+}
+.color{
+   color:rgb(121, 15, 15) !important; 
+   font-weight: bold;
+}
+.parrafo{
+    width: 350px;
+    color: rgb(241, 241, 241);
+    text-shadow:3px 1px rgb(121, 15, 15) ;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.parrafo2{
+    color: rgb(241, 241, 241);
+    text-shadow:3px 1px rgb(121, 15, 15) ;
+    font-weight: bold;
+}
+.parrafo3{
+    width: 350px;
+    color: aliceblue;
+}
+.parrafo4{
+    color: rgb(70, 64, 64);
+    font-weight: bold;
+}
+.parrafo5{
+    width: 90%;
+    color: aliceblue;
+    font-size: 12px;
+}
+h2{
+    padding: 30px;
+}
+h3{
+    color:rgb(189, 147, 10);
+    padding: 30px;
+}
+.titulo{
+    color: rgb(241, 241, 241);
+    text-shadow:3px 1px rgb(121, 15, 15) ;
+    font-weight: bold;
+    font-size: 35px;
+}
+.icono{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(121, 15, 15) ;
+    border-radius: 60px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 25px;
+}
+.dulceDeLeche{
+    width: 100%;
+    background-color:black ;
+}
+.dulceDeLeche2{
+     width: 100%;
+     background-color:rgb(236, 193, 99);
+     height:400px ;
+}
+.dulceDeLeche3{
+    width: 100%;
+    background-color:black ;
+    height: 400px;
+}
+.boton{
+    border: 2px solid  rgb(189, 147, 10);
+    color: rgb(189, 147, 10);
+    background-color: black;
+    width: 50%;
+}
+.imagen{
+    width: 50%;
+    height: 400px;
+}
+.imagen2{
+    width: 100%;
+    height: 350px;
+    
+}
+.tarjeta{
+    width: 280px;
+    height:300px;
+    border: 4px solid black;
+    border-radius: 15px;
+    background-color:rgb(236, 193, 99); 
+}
+label , input ,legend{
+    display: block;
+    margin:3px ;
+    color: aliceblue;
+}
+.formulario{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   
+}
+.footer{
+    padding: 30px;
+    color:rgb(236, 193, 99) ;
+    background-color: black;
+    text-align: center;
+}
+
+.p1{
+    color:rgb(236, 193, 99) ;
+    font-weight: bold;
+}
+@media screen and (max-width: 991px){
+    .noMostrar{
+        display: block;
+    }
+    .mostrar{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 814px){
+    .encabezado{
+        display: flex;
+        flex-direction: column-reverse!important;
+        
+
+    }
+}
